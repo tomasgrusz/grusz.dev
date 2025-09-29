@@ -1,8 +1,10 @@
 import type { MDXComponents } from "mdx/types";
-import { TestComponent } from "./components/TestComponent/TestComponent";
+import { Sandbox } from "./components/Sandbox/Sandbox";
+import { Code } from "./components/Code/Code";
 
 const components: MDXComponents = {
-  TestComponent: TestComponent,
+  Code: Code,
+  Sandbox: Sandbox,
 };
 
 export function useMDXComponents(): MDXComponents {
